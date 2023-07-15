@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: 'Samarkan';
+    src: url('/Fonts/SAMARN__.TTF') format('truetype');
+  }
+  
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior:smooth;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.hr{
+    background-color: #000000;
+    color: #e61414;
+    margin: 0px 0px;
+    height: 1px;
+    width: 1%;
+
+
+}
+
+/* Hwader  */
+
+.head-bg {
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+    filter: blur(5px);
+}
+
+.header {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.isro-logo {
+    padding: 0px;
+    height: auto;
+    width: 55px;
+    position: absolute;
+    top: 0;
+    left: 1%;
+    z-index: 1;
+    margin: 5px;
+    transition: ease-in;
+}
+
+.header-left{
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+.header-center{
+    padding: 0px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    z-index: 1;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+.header-right{
+    padding: 0px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    z-index: 1;
+    margin: 5px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Navbar  */
+.navbar{
+    display: flex;
+}
+
+.chand-bg{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.g20-logo{
+    top: 75px;
+    width: 100px;
+    height: auto;
+    left: 1%;
+    position: absolute;
+    z-index: 1;
+}
+
+.na-logo{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    right: 1%;
+    z-index: 1;
+    top: 75px;
+}
+
+/* Chadaryaan  */
+.chand{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.chand-left{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 200%;
+    
+}
+
+.chand-right{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 200%;
+    text-align: right;
+}
+
+.chand-h1{
+    font-family: 'Samarkan', sans-serif;
+    padding:0px;
+    margin: 0px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 45%;
+    top:15%;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: 1s ease;
+}
+
+.chand-h1::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.chand-h1:hover::after{
+    width:100%;
+
+}
+
+.chand-yt{
+    padding: 0px;
+    top: 150%;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.chand-yt-btn{
+    padding: 5%;
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    border-radius: 20%;
+    transition: background-color 0.9s ease;
+}
+
+.chand-yt-btn:hover {
+    background-color: #f1f1f1;
+    box-shadow: 9px 9px 9px rgba(1, 1, 1, 1);
+    
+
+}
+
+
+
+
+/* Mangalyaan */
+.mars-bg{
+    width: 100%;
+    height: auto;
+}
