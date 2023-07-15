@@ -2,226 +2,126 @@
 
 @font-face {
     font-family: 'Samarkan';
-    src: url('Fonts/SAMARN__.TTF') format('truetype');
-  }
+    src: url('/Fonts/SAMARN__.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Centauri';
+    src: url('/Fonts/Centauri.ttf') format('truetype');
+}
   
-
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior:smooth;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-
-}
-
-.hr{
-    background-color: #000000;
-    color: #e61414;
-    margin: 0px 0px;
-    height: 1px;
-    width: 1%;
-
-
-}
-
-/* Hwader  */
-
-.head-bg {
-    padding: 0px;
-    height: 60px;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-seriff;
 }
 
 .header {
-    display: flex;
-    padding: 0px;
+    height: 20px;
     width: 100%;
-    height: 60px;
+    top: 0;
 }
-
-.isro-logo {
-    padding: 0px;
-    height: auto;
-    width: 55px;
+.head-bg {
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-content .logo {
+    height: 50px;
     position: absolute;
     top: 0;
-    left: 1%;
-    z-index: 1;
-    margin: 5px;
-    transition: ease-in;
+    left: 15px;
 }
-
-.header-left{
-    padding: 0px;
-    margin: 0px;
-    width: auto;
-    height: auto;
-}
-
-.header-center{
-    padding: 0px;
-    height: auto;
-    width: auto;
+.header-content h1 {
     position: absolute;
-    top: 0;
-    left: 500px;
-    z-index: 1;
-    margin: 0px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 10px;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 5px;
-}
-
-
-.header-right{
-    padding: 0px;
-    height: auto;
-    width: auto;
-    position: absolute;
-    top: 0px;
-    right: 10%;
-    z-index: 1;
-    margin: 5px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-}
-
-/* Navbar  */
-.navbar{
-    display: flex;
-}
-
-.chand-bg{
-    width: 100%;
-    height: auto;
-}
-
-
-
-.g20-logo{
-    top: 75px;
-    width: 100px;
-    height: auto;
-    left: 1%;
-    position: absolute;
-    z-index: 1;
-}
-
-.na-logo{
-    width: 40px;
-    height: auto;
-    position: absolute;
-    right: 1%;
-    z-index: 1;
-    top: 75px;
-}
-
-/* Chadaryaan  */
-.chand{
-    padding: 0px;
-    margin: 0px;
-    height: auto;
-    width: 100%;
-    display: flex;
-}
-
-.chand-left{
-    padding: 0px;
-    margin: 0px;
-    height: auto;
-    width: 500px;
-    position: absolute;
-    left: 15%;
-    top: 50%;
+    top: 5px;
     font-size: 15px;
-    letter-spacing: 3px;
-    line-height: 200%;
-    
+    color: whitesmoke;
+    text-align: center;
+    left: 12%;
+    line-height: 3;
+    font-family: 'Centauri';
+    letter-spacing: 2px;
 }
-
-.chand-right{
-    padding: 0px;
-    margin: 0px;
-    height: auto;
-    width: 500px;
+.nav-left .g20 {
+    height: 55px;
     position: absolute;
-    right: 15%;
-    top: 50%;
-    font-size: 15px;
-    letter-spacing: 3px;
-    line-height: 200%;
-    text-align: right;
+    top: 60px;
+    left: 5px;
 }
-
-.chand-h1{
+.nav-center {
+    line-height: 8;
+}
+.nav-center a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 60px;
+    position: relative;
+    left: 220px;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 99;
+}
+.nav-right img {
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+.hero {
+    position: absolute;
+    top: 240px;
+    left: 80px;
+}
+.hero-right {
+    /* height: 300px;
+    width: 300px;*/
+    position: absolute;
+    top: 240px;
+    right: 100px;
+}
+.chand {
     font-family: 'Samarkan', sans-serif;
-    padding:0px;
-    margin: 0px;
-    height: auto;
-    width: auto;
-    position: absolute;
-    left: 45%;
-    top:15%;
-    letter-spacing: 1px;
     text-align: center;
-    transition: 1s ease;
+    font-size: 20px;
 }
-
-.chand-h1::after{
+.card-text .chand {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card-text .chand:hover {
+    color: #bc9301;
+}
+/* .hero-right {
     content: '';
-    width: 0%;
-    height: 2px;
-    background: #000000;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.chand-h1:hover::after{
-    width:100%;
-
-}
-
-.chand-yt{
-    padding: 0px;
-    top: 150%;
+    background-image: conic-gradient(
+        #ff0052 20deg,
+        transparent 120deg
+    );
+    width: 32%;
+    height: 35%;
     position: absolute;
+}
+.hero-right::after {
+    content: 'Animation';
+    width: 190px;
+    height: 190px;
+    background: #101010;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0052;
+    font-size: larger;
+    letter-spacing: 5px;
+    box-shadow: inset 20px 20px 20px #0000008c;
+} */
+
+.final {
+    height: 100vh;
     width: 100%;
-    height: auto;
-}
-
-.chand-yt-btn{
-    padding: 5%;
-    width: 50%;
-    height: 50%;
-    background-color: transparent;
-    border-radius: 20%;
-    transition: background-color 0.9s ease;
-}
-
-.chand-yt-btn:hover {
-    background-color: #f1f1f1;
-    box-shadow: 9px 9px 9px rgba(1, 1, 1, 1);
-    
-
-}
-
-
-
-
-/* Mangalyaan */
-.mars-bg{
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top: 50px;
 }

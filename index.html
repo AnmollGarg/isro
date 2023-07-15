@@ -2,72 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="Images/Indian_Space_Research_Organisation_Logo.png">
-    <title>ISRO</title>
+    <title>ISRO Wrbsite</title>
+    <link rel="icon" href="Indian_Space_Research_Organisation_Logo.svg.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header  -->
     <div class="header">
-        <img class ="head-bg" src="Images/Nav-Bg.png" alt="">
-        <div class="header-left">
-            <a href="/index.html"><img class = "isro-logo" src="Images/Indian_Space_Research_Organisation_Logo.png" alt=""></a>
-        </div>
-
-        <div class="header-center">
-            <h1>lndian Space Research Organization, Department of Space</h1>
-        </div>
-
-        <div class="header-right">
-            ###
+        <img src="Images/Nav-Bg.png" class="head-bg">
+        <div class="header-content">
+            <img src="Images/Indian_Space_Research_Organisation_Logo.svg.webp" class="logo">
+            <h1>Indian Space Research Organization, Department of Space</h1>
+            
         </div>
     </div>
-
-    <!-- Navbar  -->
-    <div class="navbar">
-        <div class="nav-left">
-            <img class = "g20-logo" src="Images/G20_India_2023_logo.png" alt="g 20 logo">
-        </div>
-
-        <div class="nav-right">
-            <img class = "na-logo" src="Images/Emblem_of_India_(brown).svg.png" alt="national amblem">
-        </div>
-    </div>
-
-    <!-- Chandrayaan  -->
-    <div class="chand">
-        <h1 class="chand-h1">Chandrayaan 3</h1>
-        <img src="Images/Final.png" alt="Chandaryaan 3 Background" class="chand-bg">
-        <div class="chand-left">
-            <p>Chandrayaan-3 is the third lunar exploration mission by the Indian Space Research Organisation. It consists of a lander and the Pragyan rover similar to Chandrayaan-2, but does not have an orbiter. Its propulsion module behaves like a communication relay satellite.</p>
-        </div>
-
-        <div class="chand-right">
-            <p>Start date: 14 July 2023<br>
-                Rocket: LVM3 M4<br>
-                Bus: Chandrayaan<br>
-                Launch mass: 3900 kg<br>
-                Manufacturer: Indian Space Research Organisation (ISRO)<br>
-                Power: Propulsion Module: 758 W Lander Module: 738W, WS with Bias Rover: 50W<br>
-                Spacecraft component: Rover
-                </p>
-
-            <div class="chand-yt">
-                <button class="chand-yt-btn">Watch Now</button>
+    <img src="Images/Final-Dark(1).png" class="final">
+    <!-- <div class="hero">
+        <h3 class="hero-left">Chandrayaan-3 is the third lunar <br>exploration mission by the Indian<br>Space Research Organisation. It is <br>consists of a lander and the Pragyan<br> rover similar to Chandrayaan-2, but<br>does not have an orbiter. Its propulsion<br> module behaves br like a communication<br> relay satellite. text-bg-dark</h3>
+    </div> -->
+    <div class="hero">
+        <div class="card text-bg-light mb-3 hero-left" style="max-width: 18rem; border: 3px solid #000;">
+            <!-- <div class="card-header">Mission</div> -->
+            <div class="card-body">
+            <h5 class="card-title chand">About</h5>
+                <p class="card-text hero-left" style="line-height: 30px;"><span class="chand" style="font-size: 30px;">Chandrayaan-3</span> is the third lunar exploration mission by the IndianSpace Research Organisation. It is consists of a lander and the Pragyan rover similar to Chandrayaan-2, but does not have an orbiter. Its propulsion module behaves br like a communication relay satellite.</p>
             </div>
         </div>
     </div>
+    <div class="card text-bg-light mb-3 hero-right" style="max-width: 18rem; border: 3px solid #000; line-height: 30px;">
+        <!-- <div class="card-header">Mission</div> -->
+        <div class="card-body">
+          <h5 class="card-title chand">Chandrayan-3</h5>
+          <p class="card-text" style="color: #000; opacity: 100% !important;">Start date: 14 July 2023<br>
+            Rocket: LVM3 M4<br>
+            Bus: Chandrayaan<br>
+            Launch mass: 3900 kg<br>
+            Manufacturer: Indian Space Research<br> Organisation (ISRO)<br>
+            Power: Propulsion Module: 758 W Lander<br>
+            Module: 738W, WS with Bias Rover: 50W<br>
+            Spacecraft component: Rover</p>
+        </div>
+      </div>
+      <!-- <div class="card hero-right" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> -->
+      
+      
+        <!-- <p class="hero-right">Start date: 14 July 2023<br>
+            Rocket: LVM3 M4<br>
+            Bus: Chandrayaan<br>
+            Launch mass: 3900 kg<br>
+            Manufacturer: Indian Space Research<br> Organisation (ISRO)<br>
+            Power: Propulsion Module: 758 W Lander<br>
+            Module: 738W, WS with Bias Rover: 50W<br>
+            Spacecraft component: Rover
+            </p> -->
+    
 
-
-    <hr>
-
-
-    <!-- Mangalyaan -->
-    <div class="mangal">
-        <img class="mars-bg" src="Images/Mars.png" alt="">
+    <div class="nav-bar">
+        <div class="nav-left">
+            <img src="Images/G20_India_2023_logo.svg.webp" class="g20">
+        </div>
+        <div class="nav-center">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Activities</a>
+            <a href="#">Services</a>
+            <a href="#">Programs</a>
+            <a href="#">Resources</a>
+            <a href="#">Engage with us</a>
+        </div>
+        <div class="nav-right">
+            <img src="Images/Emblem_of_India_(brown).svg.png" >
+        </div>
     </div>
 
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
