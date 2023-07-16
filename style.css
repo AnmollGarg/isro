@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'Samarkan';
-    src: url('Fonts/SAMARN__.TTF') format('truetype');
+    src: url('/Fonts/SAMARN__.TTF') format('truetype');
 }
 @font-face {
     font-family: 'Centauri';
-    src: url('Fonts/Centauri.ttf') format('truetype');
+    src: url('/Fonts/Centauri.ttf') format('truetype');
 }
   
 * {
@@ -39,16 +39,16 @@
     font-size: 15px;
     color: whitesmoke;
     text-align: center;
-    left: 12%;
-    line-height: 3;
+    left: 20%;
+    line-height: 40px;
     font-family: 'Centauri';
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 .nav-left .g20 {
     height: 55px;
     position: absolute;
     top: 60px;
-    left: 5px;
+    left: 20px;
 }
 .nav-center {
     line-height: 8;
@@ -58,21 +58,24 @@
     color: #fff;
     margin-right: 60px;
     position: relative;
-    left: 220px;
-    font-weight: 500;
+    left: 250px;
+    font-weight: 700;
     cursor: pointer;
     z-index: 99;
 }
 .nav-right img {
-    height: 50px;
+    height: 60px;
     position: absolute;
-    right: 10px;
+    right: 25px;
     top: 60px;
 }
 .hero {
     position: absolute;
     top: 240px;
     left: 80px;
+    filter: drop-shadow(10px 10px 25px white);
+}
+.hero-left {
 }
 .hero-right {
     /* height: 300px;
@@ -80,11 +83,15 @@
     position: absolute;
     top: 240px;
     right: 100px;
+    filter: drop-shadow(10px 10px 25px white);
+
 }
 .chand {
     font-family: 'Samarkan', sans-serif;
     text-align: center;
     font-size: 20px;
+    color: #000;
+    font-weight: 500;
 }
 .card-text .chand {
     transition: 0.5s ease;
